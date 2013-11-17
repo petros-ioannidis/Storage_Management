@@ -1,0 +1,111 @@
+/* 
+    Document   : storageWarsCss
+    Created on : Aug 24, 2013, 9:23:36 PM
+    Author     : zbs
+    Description:
+        Purpose of the stylesheet follows.
+*/
+*{
+    font-family: initial;
+}
+
+body{
+    font-size: 14px;
+    background-color: olivedrab;
+    background-image: url(warehouse.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position: bottom;
+    
+    
+}
+h2 {
+    
+    color:black;
+     font-weight: normal;}
+p4 a{
+    text-decoration: none;}
+
+div.box {
+
+    text-align: center;
+    background-color: whitesmoke;
+    margin:20px;
+    width:180px;
+    padding:10px;
+    border:1px solid darkolivegreen;
+    border-radius: 10px}
+
+div.smallBox{
+    text-align: center;
+    background-color: darkolivegreen;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border:1px solid #6495ED;
+    border-radius: 10px;}
+
+div.bigBox{
+    margin-top: 20px;
+    text-align: center;
+    background-color: darkolivegreen;
+    margin-right:auto;
+    margin-left:auto;
+    width:50%;
+    padding:7px;
+    border:1px solid darkolivegreen;
+    border-radius: 10px;}
+
+table
+{
+    width:100%;
+    border-collapse: collapse;
+}
+
+tr{
+    height:50px;
+    background-color: whitesmoke;
+}
+
+td{
+    padding:15px;
+}
+
+tr, td
+{
+    border:1px solid darkolivegreen;}
+
+#searchbar{
+    margin-top:20px;
+    margin-bottom:40px;
+    margin-right:auto;
+    margin-left:auto;
+    width:500px;
+}
+
+#sidebox{
+    
+    text-align: center;
+    background-color: darkolivegreen;
+    width:100px;
+    height: 250px;
+    border:5px solid darkolivegreen;
+    border-radius:20px;
+    position: absolute;
+}
+
+
+
+#smallsidebox{
+    text-align: center;
+    width: 160px;
+    height: 30px;
+    background-color: whitesmoke;
+}
+
+#sidebar{
+    border-radius: 20px;
+    border:2px solid darkolivegreen; 
+    width: 160px;
+    position: absolute;
+}

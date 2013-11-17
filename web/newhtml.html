@@ -1,0 +1,32 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head><script>
+
+function emailchk()
+{
+var x=document.feedback.email.value
+if (x.indexOf("@")==-1)
+{
+	alert("It seems you entered an invalid email address.")
+	document.feedback.email.focus()
+}
+}
+</script></head><body>
+
+<form
+name="feedback">
+Email:<input type="text" size="20" name="email"
+onblur="emailchk()"><br>
+Comment: <textarea name="comment" rows="2" cols="20"></textarea><br>
+<input type="submit" value="Submit">
+</form>
+</body></html>
+</script></head><body>
+    
+
+</body>
+</html>
